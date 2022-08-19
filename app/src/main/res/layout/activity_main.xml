@@ -19,5 +19,20 @@
         android:layout_width="match_parent"
         android:onClick="datpcr"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="start" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:onClick="pau"
+        android:layout_height="wrap_content"
+        android:text="pause" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:onClick="stp"
+
+        android:layout_height="wrap_content"
+        android:text="stop" />
 </LinearLayout>
